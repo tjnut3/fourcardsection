@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    background-color: #fafafa;
+}
+
+main {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    h1 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 20px;
+    }
+}
+
+.block1 {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    justify-content: right;
+}
+
+.block2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 0px;
+}
+
+.block3 {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+.teambuilder {
+    margin-bottom: 30px;
+}
+
+.karma, .supervisor, .teambuilder, .calculator {
+    padding: 32px;
+    box-shadow:inset;
+    width: 350px;
+    box-shadow: 0px 10px 15px #dadae5;
+}
+
+.icon {
+    display: flex;
+    justify-content: right;
+}
+
+.supervisor {
+    border-top: 4px solid #44d3d2;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
+}
+
+.karma {
+    border-top: 4px solid #fcae4a;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
+}
+
+.teambuilder {
+    border-top: 4px solid #ea5454;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
+}
+
+.calculator {
+    border-top: 4px solid #549ef2;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    color: #a6a7b1;
+}
+
+header {
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 80px;
+    h1 {
+        font-size: 36px;
+        color: #4d4f62;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        margin-bottom: 24px;
+    }
+    h2 {
+        font-size: 36px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        color: #4d4f62;
+    }
+}
+
+.attribution {
+    padding: 24px;
+}
+
+@media (max-width:1200px) {
+    .karma, .supervisor, .teambuilder, .calculator {
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    .block2,.block1 {
+        width: 100%;
+    }
+    .karma, .supervisor, .teambuilder {
+        margin-bottom: 32px;
+    }
+    .row {
+        margin: 20px;
+    }
+    .block2 {
+        margin: 0px;
+    }
+}
+
+@media (max-width: 476px) {
+    header {
+        h1, h2 {
+            font-size: 24px;
+        }
+    }
+    .attribution {
+        font-size: 12px;
+    }
+}
